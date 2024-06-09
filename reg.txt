@@ -1,0 +1,38 @@
+<html>
+    <title>registration page </title>
+    <head>
+        this is a registration page for oec
+    </head>
+    <body bgcolor="cyan">
+        <form action="conf.html" method="POST">
+            <label>
+                username
+            </label>
+            <input type="text" size="15"/><br>
+            <label>
+                email
+            </label>
+            <input type="email"/><br>
+            <label>
+                gender
+            </label>
+            <input type="radio">male<br>
+            <input type="radio ">female<br>
+            <label>
+                course
+            </label>
+            <select>
+                <option value="course" ></option>
+                <option value="nt">nt</option>
+                <option value="ent">ent</option>
+            </select>
+            <label>
+                password
+            </label>
+            <input type="password" id ="pass"/><br>
+            <input type="submit" value="submit"/>
+
+        </form>
+        
+
+    </body>
